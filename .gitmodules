@@ -1,0 +1,3 @@
+[submodule "dy_next_utils"]
+	path = dy_next_utils
+	url = https://github.com/EvStorM/dy_next_utils.git
