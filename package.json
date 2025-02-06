@@ -23,6 +23,7 @@
     "@heroui/theme": "2.4.5",
     "@react-aria/ssr": "3.9.7",
     "@react-aria/visually-hidden": "3.8.18",
+    "@vercel/analytics": "^1.4.1",
     "@vercel/speed-insights": "^1.1.0",
     "ahooks": "^3.8.4",
     "axios": "^1.7.9",
