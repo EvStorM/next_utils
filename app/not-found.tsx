@@ -1,22 +1,11 @@
-"use client";
-import { Suspense } from "react";
+import Link from "next/link";
 
-// Error boundaries must be Client Components
-
-export default function GlobalError({
-  error,
-  reset,
-}: {
-  error: Error & { digest?: string };
-  reset: () => void;
-}) {
+export default function NotFound() {
   return (
-    // eslint-disable-next-line jsx-a11y/html-has-lang
-    <html>
-      <body>
-        <h2>Something went wrong!</h2>
-        <button onClick={() => reset()}>Try again</button>
-      </body>
-    </html>
+    <div>
+      <h2>Not Found</h2>
+      <p>Could not find requested resource</p>
+      <Link href="/">Return Home</Link>
+    </div>
   );
 }
